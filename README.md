@@ -1,1 +1,2 @@
 ‘Over/Under points totals’ is a sports betting category that involves sports bookmakers setting a fixed number for an individual game while bettors choose whether they think the total points (sum of both teams’ points) in a game will be over or under the set value. For example, if the fixed number is 220, a bettor who chose ‘over’ would win if the sum of both teams’ points is larger than 220. Alternatively, the bettor would lose if the sum was less than 220.
+The goal of the Random Forest model is to predict the Over/Under of a game using data from previous games.
