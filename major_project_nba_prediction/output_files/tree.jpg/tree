@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="HOME_FT_PCT <= 0.801\nsamples = 100.0%\nvalue = [0.501, 0.499]", fillcolor="#fffffe"] ;
+1 [label="HOME_PTS_AVG <= 107.714\nsamples = 95.0%\nvalue = [0.513, 0.487]", fillcolor="#fef8f5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="HOME_FG3_PCT <= 0.362\nsamples = 31.2%\nvalue = [0.746, 0.254]", fillcolor="#eeac7c"] ;
+1 -> 2 ;
+3 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 3 ;
+162 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 162 ;
+227 [label="HOME_PTS_AVG <= 114.388\nsamples = 63.8%\nvalue = [0.4, 0.6]", fillcolor="#bddef6"] ;
+1 -> 227 ;
+228 [label="(...)", fillcolor="#C0C0C0"] ;
+227 -> 228 ;
+683 [label="(...)", fillcolor="#C0C0C0"] ;
+227 -> 683 ;
+822 [label="AWAY_FG3_PCT <= 0.363\nsamples = 5.0%\nvalue = [0.276, 0.724]", fillcolor="#85c2ef"] ;
+0 -> 822 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+823 [label="AWAY_REB_AVG <= 25.935\nsamples = 3.3%\nvalue = [0.181, 0.819]", fillcolor="#65b3eb"] ;
+822 -> 823 ;
+824 [label="(...)", fillcolor="#C0C0C0"] ;
+823 -> 824 ;
+847 [label="(...)", fillcolor="#C0C0C0"] ;
+823 -> 847 ;
+848 [label="HOME_AST_AVG <= 44.497\nsamples = 1.7%\nvalue = [0.456, 0.544]", fillcolor="#dfeffb"] ;
+822 -> 848 ;
+849 [label="(...)", fillcolor="#C0C0C0"] ;
+848 -> 849 ;
+864 [label="(...)", fillcolor="#C0C0C0"] ;
+848 -> 864 ;
+}
